@@ -1,16 +1,10 @@
 [
   {
-    "Type": "CompositeDataTable",
-    "Name": "DT_ItemNameText",
-    "Class": "UScriptClass'CompositeDataTable'",
+    "Type": "DataTable",
+    "Name": "DT_ItemNameText_Common",
+    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
-      "ParentTables": [
-        {
-          "ObjectName": "DataTable'DT_ItemNameText_Common'",
-          "ObjectPath": "Pal/Content/L10N/ko/Pal/DataTable/Text/DT_ItemNameText_Common.0"
-        }
-      ],
       "RowStruct": {
         "ObjectName": "ScriptStruct'PalLocalizedTextData'",
         "ObjectPath": "/Script/Pal"
@@ -8957,8 +8951,8 @@
         "TextData": {
           "Namespace": "DT_ItemNameText_Common",
           "Key": "ITEM_NAME_Accessory_AirDash3_TextData",
-          "SourceString": "ko_Text",
-          "LocalizedString": "ko_Text"
+          "SourceString": "트리플 에어 대시 부츠",
+          "LocalizedString": "트리플 에어 대시 부츠"
         }
       },
       "ITEM_NAME_Accessory_AirDash4": {
@@ -10373,72 +10367,1912 @@
         "TextData": {
           "Namespace": "DT_ItemNameText_Common",
           "Key": "ITEM_NAME_ChargeLaserRifle_TextData",
-          "SourceString": "ko_Text",
-          "LocalizedString": "ko_Text"
+          "SourceString": "충전식 소총",
+          "LocalizedString": "충전식 소총"
         }
       },
       "ITEM_NAME_OverheatRifle": {
         "TextData": {
           "Namespace": "DT_ItemNameText_Common",
           "Key": "ITEM_NAME_OverheatRifle_TextData",
-          "SourceString": "ko_Text",
-          "LocalizedString": "ko_Text"
+          "SourceString": "전자동 소총",
+          "LocalizedString": "전자동 소총"
         }
       },
       "ITEM_NAME_EnergyShotgun": {
         "TextData": {
           "Namespace": "DT_ItemNameText_Common",
           "Key": "ITEM_NAME_EnergyShotgun_TextData",
-          "SourceString": "ko_Text",
-          "LocalizedString": "ko_Text"
+          "SourceString": "에너지 산탄총",
+          "LocalizedString": "에너지 산탄총"
         }
       },
       "ITEM_NAME_PalDopingShot": {
         "TextData": {
           "Namespace": "DT_ItemNameText_Common",
           "Key": "ITEM_NAME_PalDopingShot_TextData",
-          "SourceString": "ko_Text",
-          "LocalizedString": "ko_Text"
+          "SourceString": "부스트 건",
+          "LocalizedString": "부스트 건"
+        }
+      },
+      "ITEM_NAME_PalDopingShot_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalDopingShot_2_TextData",
+          "SourceString": "메가 부스트 건",
+          "LocalizedString": "메가 부스트 건"
         }
       },
       "ITEM_NAME_PalHealingGrenade": {
         "TextData": {
           "Namespace": "DT_ItemNameText_Common",
           "Key": "ITEM_NAME_PalHealingGrenade_TextData",
-          "SourceString": "ko_Text",
-          "LocalizedString": "ko_Text"
+          "SourceString": "팰 회복 수류탄",
+          "LocalizedString": "팰 회복 수류탄"
         }
       },
       "ITEM_NAME_ChargeLaserRifleBullet": {
         "TextData": {
           "Namespace": "DT_ItemNameText_Common",
           "Key": "ITEM_NAME_ChargeLaserRifleBullet_TextData",
-          "SourceString": "ko_Text",
-          "LocalizedString": "ko_Text"
+          "SourceString": "충전식 소총 탄약",
+          "LocalizedString": "충전식 소총 탄약"
         }
       },
       "ITEM_NAME_OverheatRifleBullet": {
         "TextData": {
           "Namespace": "DT_ItemNameText_Common",
           "Key": "ITEM_NAME_OverheatRifleBullet_TextData",
-          "SourceString": "ko_Text",
-          "LocalizedString": "ko_Text"
+          "SourceString": "전자동 소총 탄약",
+          "LocalizedString": "전자동 소총 탄약"
         }
       },
       "ITEM_NAME_EnergyShotgunBullet": {
         "TextData": {
           "Namespace": "DT_ItemNameText_Common",
           "Key": "ITEM_NAME_EnergyShotgunBullet_TextData",
-          "SourceString": "ko_Text",
-          "LocalizedString": "ko_Text"
+          "SourceString": "에너지 산탄총 탄약",
+          "LocalizedString": "에너지 산탄총 탄약"
         }
       },
       "ITEM_NAME_PalDopingShotBullet": {
         "TextData": {
           "Namespace": "DT_ItemNameText_Common",
           "Key": "ITEM_NAME_PalDopingShotBullet_TextData",
-          "SourceString": "ko_Text",
-          "LocalizedString": "ko_Text"
+          "SourceString": "부스트 건 탄약",
+          "LocalizedString": "부스트 건 탄약"
+        }
+      },
+      "ITEM_NAME_Salvage_TreasureBoxKey01": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Salvage_TreasureBoxKey01_TextData",
+          "SourceString": "낚시 마그넷",
+          "LocalizedString": "낚시 마그넷"
+        }
+      },
+      "ITEM_NAME_Salvage_TreasureBoxKey02": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Salvage_TreasureBoxKey02_TextData",
+          "SourceString": "강력 낚시 마그넷",
+          "LocalizedString": "강력 낚시 마그넷"
+        }
+      },
+      "ITEM_NAME_PalPassiveSkillChange_NonKilling": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalPassiveSkillChange_NonKilling_TextData",
+          "SourceString": "임플란트: 힘 조절",
+          "LocalizedString": "임플란트: 힘 조절"
+        }
+      },
+      "ITEM_NAME_PalPassiveSkillChange_Nocturnal": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalPassiveSkillChange_Nocturnal_TextData",
+          "SourceString": "임플란트: 야행성",
+          "LocalizedString": "임플란트: 야행성"
+        }
+      },
+      "ITEM_NAME_PalPassiveSkillChange_HatchingSpeed_Up": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalPassiveSkillChange_HatchingSpeed_Up_TextData",
+          "SourceString": "임플란트: 박애주의자",
+          "LocalizedString": "임플란트: 박애주의자"
+        }
+      },
+      "ITEM_NAME_PalPassiveSkillChange_CoolTimeReduction_Up_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalPassiveSkillChange_CoolTimeReduction_Up_2_TextData",
+          "SourceString": "임플란트: 성급함",
+          "LocalizedString": "임플란트: 성급함"
+        }
+      },
+      "ITEM_NAME_PalPassiveSkillChange_CoolTimeReduction_Up_1": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalPassiveSkillChange_CoolTimeReduction_Up_1_TextData",
+          "SourceString": "임플란트: 냉철함",
+          "LocalizedString": "임플란트: 냉철함"
+        }
+      },
+      "ITEM_NAME_PalPassiveSkillChange_Stamina_Up_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalPassiveSkillChange_Stamina_Up_2_TextData",
+          "SourceString": "임플란트: 건강한 우량아",
+          "LocalizedString": "임플란트: 건강한 우량아"
+        }
+      },
+      "ITEM_NAME_PalPassiveSkillChange_Stamina_Up_1": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalPassiveSkillChange_Stamina_Up_1_TextData",
+          "SourceString": "임플란트: 넘쳐나는 기력",
+          "LocalizedString": "임플란트: 넘쳐나는 기력"
+        }
+      },
+      "ITEM_NAME_PalPassiveSkillChange_Stamina_Up_3": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalPassiveSkillChange_Stamina_Up_3_TextData",
+          "SourceString": "임플란트: 영구기관",
+          "LocalizedString": "임플란트: 영구기관"
+        }
+      },
+      "ITEM_NAME_PalPassiveSkillChange_MoveSpeed_up_1": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalPassiveSkillChange_MoveSpeed_up_1_TextData",
+          "SourceString": "임플란트: 재빠름",
+          "LocalizedString": "임플란트: 재빠름"
+        }
+      },
+      "ITEM_NAME_PalPassiveSkillChange_MoveSpeed_up_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalPassiveSkillChange_MoveSpeed_up_2_TextData",
+          "SourceString": "임플란트: 달리기 왕",
+          "LocalizedString": "임플란트: 달리기 왕"
+        }
+      },
+      "ITEM_NAME_PalPassiveSkillChange_MoveSpeed_up_3": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalPassiveSkillChange_MoveSpeed_up_3_TextData",
+          "SourceString": "임플란트: 신속",
+          "LocalizedString": "임플란트: 신속"
+        }
+      },
+      "ITEM_NAME_PalPassiveSkillChange_PAL_FullStomach_Down_1": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalPassiveSkillChange_PAL_FullStomach_Down_1_TextData",
+          "SourceString": "임플란트: 소식",
+          "LocalizedString": "임플란트: 소식"
+        }
+      },
+      "ITEM_NAME_PalPassiveSkillChange_PAL_FullStomach_Down_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalPassiveSkillChange_PAL_FullStomach_Down_2_TextData",
+          "SourceString": "임플란트: 식습관의 달인",
+          "LocalizedString": "임플란트: 식습관의 달인"
+        }
+      },
+      "ITEM_NAME_PalPassiveSkillChange_PAL_FullStomach_Down_3": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalPassiveSkillChange_PAL_FullStomach_Down_3_TextData",
+          "SourceString": "임플란트: 절식의 극의",
+          "LocalizedString": "임플란트: 절식의 극의"
+        }
+      },
+      "ITEM_NAME_PalPassiveSkillChange_PAL_Sanity_Down_1": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalPassiveSkillChange_PAL_Sanity_Down_1_TextData",
+          "SourceString": "임플란트: 긍정적인 사고",
+          "LocalizedString": "임플란트: 긍정적인 사고"
+        }
+      },
+      "ITEM_NAME_PalPassiveSkillChange_PAL_Sanity_Down_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalPassiveSkillChange_PAL_Sanity_Down_2_TextData",
+          "SourceString": "임플란트: 일 중독",
+          "LocalizedString": "임플란트: 일 중독"
+        }
+      },
+      "ITEM_NAME_PalPassiveSkillChange_PAL_Sanity_Down_3": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalPassiveSkillChange_PAL_Sanity_Down_3_TextData",
+          "SourceString": "임플란트: 부동명왕의 마음",
+          "LocalizedString": "임플란트: 부동명왕의 마음"
+        }
+      },
+      "ITEM_NAME_PalPassiveSkillChange_PAL_ALLAttack_up1": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalPassiveSkillChange_PAL_ALLAttack_up1_TextData",
+          "SourceString": "임플란트: 용감",
+          "LocalizedString": "임플란트: 용감"
+        }
+      },
+      "ITEM_NAME_PalPassiveSkillChange_PAL_ALLAttack_up2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalPassiveSkillChange_PAL_ALLAttack_up2_TextData",
+          "SourceString": "임플란트: 사나움",
+          "LocalizedString": "임플란트: 사나움"
+        }
+      },
+      "ITEM_NAME_PalPassiveSkillChange_PAL_ALLAttack_up3": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalPassiveSkillChange_PAL_ALLAttack_up3_TextData",
+          "SourceString": "임플란트: 귀신",
+          "LocalizedString": "임플란트: 귀신"
+        }
+      },
+      "ITEM_NAME_PalPassiveSkillChange_Deffence_up1": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalPassiveSkillChange_Deffence_up1_TextData",
+          "SourceString": "임플란트: 단단한 피부",
+          "LocalizedString": "임플란트: 단단한 피부"
+        }
+      },
+      "ITEM_NAME_PalPassiveSkillChange_Deffence_up2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalPassiveSkillChange_Deffence_up2_TextData",
+          "SourceString": "임플란트: 억센 육체",
+          "LocalizedString": "임플란트: 억센 육체"
+        }
+      },
+      "ITEM_NAME_PalPassiveSkillChange_Deffence_up3": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalPassiveSkillChange_Deffence_up3_TextData",
+          "SourceString": "임플란트: 다이아몬드 보디",
+          "LocalizedString": "임플란트: 다이아몬드 보디"
+        }
+      },
+      "ITEM_NAME_PalPassiveSkillChange_CraftSpeed_up1": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalPassiveSkillChange_CraftSpeed_up1_TextData",
+          "SourceString": "임플란트: 성실함",
+          "LocalizedString": "임플란트: 성실함"
+        }
+      },
+      "ITEM_NAME_PalPassiveSkillChange_CraftSpeed_up2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalPassiveSkillChange_CraftSpeed_up2_TextData",
+          "SourceString": "임플란트: 장인 기질",
+          "LocalizedString": "임플란트: 장인 기질"
+        }
+      },
+      "ITEM_NAME_PalPassiveSkillChange_CraftSpeed_up3": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalPassiveSkillChange_CraftSpeed_up3_TextData",
+          "SourceString": "임플란트: 초절기교",
+          "LocalizedString": "임플란트: 초절기교"
+        }
+      },
+      "ITEM_NAME_PalPassiveSkillChange_Noukin": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalPassiveSkillChange_Noukin_TextData",
+          "SourceString": "임플란트: 운동 바보",
+          "LocalizedString": "임플란트: 운동 바보"
+        }
+      },
+      "ITEM_NAME_PalGenderReverse": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalGenderReverse_TextData",
+          "SourceString": "팰 리버서",
+          "LocalizedString": "팰 리버서"
+        }
+      },
+      "ITEM_NAME_BattleTicket": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_BattleTicket_TextData",
+          "SourceString": "배틀 티켓",
+          "LocalizedString": "배틀 티켓"
+        }
+      },
+      "ITEM_NAME_Blueprint_OverheatRifle_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_OverheatRifle_2_TextData",
+          "SourceString": "전자동 소총 설계도 1",
+          "LocalizedString": "전자동 소총 설계도 1"
+        }
+      },
+      "ITEM_NAME_Blueprint_OverheatRifle_3": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_OverheatRifle_3_TextData",
+          "SourceString": "전자동 소총 설계도 2",
+          "LocalizedString": "전자동 소총 설계도 2"
+        }
+      },
+      "ITEM_NAME_Blueprint_OverheatRifle_4": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_OverheatRifle_4_TextData",
+          "SourceString": "전자동 소총 설계도 3",
+          "LocalizedString": "전자동 소총 설계도 3"
+        }
+      },
+      "ITEM_NAME_Blueprint_OverheatRifle_5": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_OverheatRifle_5_TextData",
+          "SourceString": "전자동 소총 설계도 4",
+          "LocalizedString": "전자동 소총 설계도 4"
+        }
+      },
+      "ITEM_NAME_Blueprint_ChargeLaserRifle_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_ChargeLaserRifle_2_TextData",
+          "SourceString": "충전식 소총 설계도 1",
+          "LocalizedString": "충전식 소총 설계도 1"
+        }
+      },
+      "ITEM_NAME_Blueprint_ChargeLaserRifle_3": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_ChargeLaserRifle_3_TextData",
+          "SourceString": "충전식 소총 설계도 2",
+          "LocalizedString": "충전식 소총 설계도 2"
+        }
+      },
+      "ITEM_NAME_Blueprint_ChargeLaserRifle_4": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_ChargeLaserRifle_4_TextData",
+          "SourceString": "충전식 소총 설계도 3",
+          "LocalizedString": "충전식 소총 설계도 3"
+        }
+      },
+      "ITEM_NAME_Blueprint_ChargeLaserRifle_5": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_ChargeLaserRifle_5_TextData",
+          "SourceString": "충전식 소총 설계도 4",
+          "LocalizedString": "충전식 소총 설계도 4"
+        }
+      },
+      "ITEM_NAME_Blueprint_EnergyShotgun_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_EnergyShotgun_2_TextData",
+          "SourceString": "에너지 산탄총 설계도 1",
+          "LocalizedString": "에너지 산탄총 설계도 1"
+        }
+      },
+      "ITEM_NAME_Blueprint_EnergyShotgun_3": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_EnergyShotgun_3_TextData",
+          "SourceString": "에너지 산탄총 설계도 2",
+          "LocalizedString": "에너지 산탄총 설계도 2"
+        }
+      },
+      "ITEM_NAME_Blueprint_EnergyShotgun_4": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_EnergyShotgun_4_TextData",
+          "SourceString": "에너지 산탄총 설계도 3",
+          "LocalizedString": "에너지 산탄총 설계도 3"
+        }
+      },
+      "ITEM_NAME_Blueprint_EnergyShotgun_5": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_EnergyShotgun_5_TextData",
+          "SourceString": "에너지 산탄총 설계도 4",
+          "LocalizedString": "에너지 산탄총 설계도 4"
+        }
+      },
+      "ITEM_NAME_Blueprint_Hunter_GangFlag": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_Hunter_GangFlag_TextData",
+          "SourceString": "밀렵단 깃발 설계도",
+          "LocalizedString": "밀렵단 깃발 설계도"
+        }
+      },
+      "ITEM_NAME_Blueprint_LilyQueenStatue": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_LilyQueenStatue_TextData",
+          "SourceString": "릴린 상 설계도",
+          "LocalizedString": "릴린 상 설계도"
+        }
+      },
+      "ITEM_NAME_Blueprint_ConservationGroupBannerA": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_ConservationGroupBannerA_TextData",
+          "SourceString": "팰 애호 단체 깃발 설계도",
+          "LocalizedString": "팰 애호 단체 깃발 설계도"
+        }
+      },
+      "ITEM_NAME_Blueprint_ConservationGroupBannerB": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_ConservationGroupBannerB_TextData",
+          "SourceString": "팰 애호 단체 배너 설계도",
+          "LocalizedString": "팰 애호 단체 배너 설계도"
+        }
+      },
+      "ITEM_NAME_Blueprint_Wire_Fence": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_Wire_Fence_TextData",
+          "SourceString": "와이어 울타리 설계도",
+          "LocalizedString": "와이어 울타리 설계도"
+        }
+      },
+      "ITEM_NAME_Blueprint_WoodenBarricade": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_WoodenBarricade_TextData",
+          "SourceString": "나무 바리케이드 설계도",
+          "LocalizedString": "나무 바리케이드 설계도"
+        }
+      },
+      "ITEM_NAME_Blueprint_WallTorch02": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_WallTorch02_TextData",
+          "SourceString": "장엄한 벽걸이 횃불 설계도",
+          "LocalizedString": "장엄한 벽걸이 횃불 설계도"
+        }
+      },
+      "ITEM_NAME_Blueprint_CandleStand": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_CandleStand_TextData",
+          "SourceString": "장엄한 촛대 설계도",
+          "LocalizedString": "장엄한 촛대 설계도"
+        }
+      },
+      "ITEM_NAME_Blueprint_FireStand": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_FireStand_TextData",
+          "SourceString": "의식용 촛대 설계도",
+          "LocalizedString": "의식용 촛대 설계도"
+        }
+      },
+      "ITEM_NAME_SkillCard_IceWall": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_SkillCard_IceWall_TextData",
+          "SourceString": "얼음 기술 열매: 프리즈 폴",
+          "LocalizedString": "얼음 기술 열매: 프리즈 폴"
+        }
+      },
+      "ITEM_NAME_SkillCard_ReflectiveShuriken": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_SkillCard_ReflectiveShuriken_TextData",
+          "SourceString": "풀 기술 열매: 리플렉트 리프",
+          "LocalizedString": "풀 기술 열매: 리플렉트 리프"
+        }
+      },
+      "ITEM_NAME_SkillCard_DiversionLaser": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_SkillCard_DiversionLaser_TextData",
+          "SourceString": "물 기술 열매: 고압수 발사",
+          "LocalizedString": "물 기술 열매: 고압수 발사"
+        }
+      },
+      "ITEM_NAME_SkillCard_HydroSlicer": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_SkillCard_HydroSlicer_TextData",
+          "SourceString": "물 기술 열매: 하이드로 슬라이서",
+          "LocalizedString": "물 기술 열매: 하이드로 슬라이서"
+        }
+      },
+      "ITEM_NAME_Blueprint_LanternTop": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_LanternTop_TextData",
+          "SourceString": "제등 설계도",
+          "LocalizedString": "제등 설계도"
+        }
+      },
+      "ITEM_NAME_Blueprint_Shrine_Lantern": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_Shrine_Lantern_TextData",
+          "SourceString": "등롱 설계도",
+          "LocalizedString": "등롱 설계도"
+        }
+      },
+      "ITEM_NAME_Blueprint_GuardianDogStatue": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_GuardianDogStatue_TextData",
+          "SourceString": "둥실해치 상 설계도",
+          "LocalizedString": "둥실해치 상 설계도"
+        }
+      },
+      "ITEM_NAME_SkillCard_RockBeat": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_SkillCard_RockBeat_TextData",
+          "SourceString": "땅 기술 열매: 스톤 비트",
+          "LocalizedString": "땅 기술 열매: 스톤 비트"
+        }
+      },
+      "ITEM_NAME_SkillCard_ThunderSpear": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_SkillCard_ThunderSpear_TextData",
+          "SourceString": "번개 기술 열매: 번개 창",
+          "LocalizedString": "번개 기술 열매: 번개 창"
+        }
+      },
+      "ITEM_NAME_SkillCard_GravityShot": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_SkillCard_GravityShot_TextData",
+          "SourceString": "어둠 기술 열매: 다크 샷",
+          "LocalizedString": "어둠 기술 열매: 다크 샷"
+        }
+      },
+      "ITEM_NAME_SkillCard_DarkLegion": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_SkillCard_DarkLegion_TextData",
+          "SourceString": "어둠 기술 열매: 다크 위스프",
+          "LocalizedString": "어둠 기술 열매: 다크 위스프"
+        }
+      },
+      "ITEM_NAME_SkillCard_ChargeCanon": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_SkillCard_ChargeCanon_TextData",
+          "SourceString": "용 기술 열매: 축적 대포",
+          "LocalizedString": "용 기술 열매: 축적 대포"
+        }
+      },
+      "ITEM_NAME_SkillCard_IciclePierce": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_SkillCard_IciclePierce_TextData",
+          "SourceString": "얼음 기술 열매: 아이시클 불릿",
+          "LocalizedString": "얼음 기술 열매: 아이시클 불릿"
+        }
+      },
+      "ITEM_NAME_SkillCard_RangeThunder": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_SkillCard_RangeThunder_TextData",
+          "SourceString": "번개 기술 열매: 전방위 번개",
+          "LocalizedString": "번개 기술 열매: 전방위 번개"
+        }
+      },
+      "ITEM_NAME_PalSummon_YakushimaBoss002": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalSummon_YakushimaBoss002_TextData",
+          "SourceString": "천상의 인장",
+          "LocalizedString": "천상의 인장"
+        }
+      },
+      "ITEM_NAME_YakushimaHeadEquip001": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_YakushimaHeadEquip001_TextData",
+          "SourceString": "신성한 가면",
+          "LocalizedString": "신성한 가면"
+        }
+      },
+      "ITEM_NAME_YakushimaHeadEquip002": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_YakushimaHeadEquip002_TextData",
+          "SourceString": "신성한 헤드기어",
+          "LocalizedString": "신성한 헤드기어"
+        }
+      },
+      "ITEM_NAME_YakushimaArmor001": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_YakushimaArmor001_TextData",
+          "SourceString": "신성한 판금 갑옷",
+          "LocalizedString": "신성한 판금 갑옷"
+        }
+      },
+      "ITEM_NAME_YakushimaHeadEquip003": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_YakushimaHeadEquip003_TextData",
+          "SourceString": "신성한 투구",
+          "LocalizedString": "신성한 투구"
+        }
+      },
+      "ITEM_NAME_YakushimaHeadEquip006": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_YakushimaHeadEquip006_TextData",
+          "SourceString": "크툴루의 눈 가면",
+          "LocalizedString": "크툴루의 눈 가면"
+        }
+      },
+      "ITEM_NAME_YakushimaHeadEquip004": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_YakushimaHeadEquip004_TextData",
+          "SourceString": "신성한 후드",
+          "LocalizedString": "신성한 후드"
+        }
+      },
+      "ITEM_NAME_YakushimaHeadEquip005": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_YakushimaHeadEquip005_TextData",
+          "SourceString": "달의 군주 가면",
+          "LocalizedString": "달의 군주 가면"
+        }
+      },
+      "ITEM_NAME_YakushimaBlade002": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_YakushimaBlade002_TextData",
+          "SourceString": "테라 블레이드",
+          "LocalizedString": "테라 블레이드"
+        }
+      },
+      "ITEM_NAME_YakushimaBlade003": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_YakushimaBlade003_TextData",
+          "SourceString": "테라프리즈마",
+          "LocalizedString": "테라프리즈마"
+        }
+      },
+      "ITEM_NAME_YakushimaGun001": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_YakushimaGun001_TextData",
+          "SourceString": "볼텍스 비터",
+          "LocalizedString": "볼텍스 비터"
+        }
+      },
+      "ITEM_NAME_YakushimaLantern001": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_YakushimaLantern001_TextData",
+          "SourceString": "나이트글로우",
+          "LocalizedString": "나이트글로우"
+        }
+      },
+      "ITEM_NAME_YakushimaBlade004": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_YakushimaBlade004_TextData",
+          "SourceString": "엑스칼리버",
+          "LocalizedString": "엑스칼리버"
+        }
+      },
+      "ITEM_NAME_YakushimaBlade005": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_YakushimaBlade005_TextData",
+          "SourceString": "전설적인 미야우미어",
+          "LocalizedString": "전설적인 미야우미어"
+        }
+      },
+      "ITEM_NAME_Elixir_hp_Yakushima": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Elixir_hp_Yakushima_TextData",
+          "SourceString": "생명 수정",
+          "LocalizedString": "생명 수정"
+        }
+      },
+      "ITEM_NAME_YakushimaIngot001": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_YakushimaIngot001_TextData",
+          "SourceString": "신성한 주괴",
+          "LocalizedString": "신성한 주괴"
+        }
+      },
+      "ITEM_NAME_YakushimaIngot002": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_YakushimaIngot002_TextData",
+          "SourceString": "루미나이트 주괴",
+          "LocalizedString": "루미나이트 주괴"
+        }
+      },
+      "ITEM_NAME_QuestItem_Farmer_1": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_QuestItem_Farmer_1_TextData",
+          "SourceString": "농민의 특제 요리",
+          "LocalizedString": "농민의 특제 요리"
+        }
+      },
+      "ITEM_NAME_QuestItem_Zoe_1": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_QuestItem_Zoe_1_TextData",
+          "SourceString": "조이의 추억이 담긴 천",
+          "LocalizedString": "조이의 추억이 담긴 천"
+        }
+      },
+      "ITEM_NAME_Otomo_ElementBoost_Normal_1": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Otomo_ElementBoost_Normal_1_TextData",
+          "SourceString": "무속성 응원 호루라기",
+          "LocalizedString": "무속성 응원 호루라기"
+        }
+      },
+      "ITEM_NAME_Otomo_ElementBoost_Fire_1": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Otomo_ElementBoost_Fire_1_TextData",
+          "SourceString": "화염 속성 응원 호루라기",
+          "LocalizedString": "화염 속성 응원 호루라기"
+        }
+      },
+      "ITEM_NAME_Otomo_ElementBoost_Water_1": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Otomo_ElementBoost_Water_1_TextData",
+          "SourceString": "물 속성 응원 호루라기",
+          "LocalizedString": "물 속성 응원 호루라기"
+        }
+      },
+      "ITEM_NAME_Otomo_ElementBoost_Electricity_1": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Otomo_ElementBoost_Electricity_1_TextData",
+          "SourceString": "번개 속성 응원 호루라기",
+          "LocalizedString": "번개 속성 응원 호루라기"
+        }
+      },
+      "ITEM_NAME_Otomo_ElementBoost_Leaf_1": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Otomo_ElementBoost_Leaf_1_TextData",
+          "SourceString": "풀 속성 응원 호루라기",
+          "LocalizedString": "풀 속성 응원 호루라기"
+        }
+      },
+      "ITEM_NAME_Otomo_ElementBoost_Ice_1": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Otomo_ElementBoost_Ice_1_TextData",
+          "SourceString": "얼음 속성 응원 호루라기",
+          "LocalizedString": "얼음 속성 응원 호루라기"
+        }
+      },
+      "ITEM_NAME_Otomo_ElementBoost_Earth_1": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Otomo_ElementBoost_Earth_1_TextData",
+          "SourceString": "땅 속성 응원 호루라기",
+          "LocalizedString": "땅 속성 응원 호루라기"
+        }
+      },
+      "ITEM_NAME_Otomo_ElementBoost_Dark_1": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Otomo_ElementBoost_Dark_1_TextData",
+          "SourceString": "어둠 속성 응원 호루라기",
+          "LocalizedString": "어둠 속성 응원 호루라기"
+        }
+      },
+      "ITEM_NAME_Otomo_ElementBoost_Dragon_1": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Otomo_ElementBoost_Dragon_1_TextData",
+          "SourceString": "용 속성 응원 호루라기",
+          "LocalizedString": "용 속성 응원 호루라기"
+        }
+      },
+      "ITEM_NAME_Otomo_ElementBoost_Normal_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Otomo_ElementBoost_Normal_2_TextData",
+          "SourceString": "무속성 응원 호루라기 +1",
+          "LocalizedString": "무속성 응원 호루라기 +1"
+        }
+      },
+      "ITEM_NAME_Otomo_ElementBoost_Fire_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Otomo_ElementBoost_Fire_2_TextData",
+          "SourceString": "화염 속성 응원 호루라기 +1",
+          "LocalizedString": "화염 속성 응원 호루라기 +1"
+        }
+      },
+      "ITEM_NAME_Otomo_ElementBoost_Water_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Otomo_ElementBoost_Water_2_TextData",
+          "SourceString": "물 속성 응원 호루라기 +1",
+          "LocalizedString": "물 속성 응원 호루라기 +1"
+        }
+      },
+      "ITEM_NAME_Otomo_ElementBoost_Electricity_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Otomo_ElementBoost_Electricity_2_TextData",
+          "SourceString": "번개 속성 응원 호루라기 +1",
+          "LocalizedString": "번개 속성 응원 호루라기 +1"
+        }
+      },
+      "ITEM_NAME_Otomo_ElementBoost_Leaf_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Otomo_ElementBoost_Leaf_2_TextData",
+          "SourceString": "풀 속성 응원 호루라기 +1",
+          "LocalizedString": "풀 속성 응원 호루라기 +1"
+        }
+      },
+      "ITEM_NAME_Otomo_ElementBoost_Ice_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Otomo_ElementBoost_Ice_2_TextData",
+          "SourceString": "얼음 속성 응원 호루라기 +1",
+          "LocalizedString": "얼음 속성 응원 호루라기 +1"
+        }
+      },
+      "ITEM_NAME_Otomo_ElementBoost_Earth_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Otomo_ElementBoost_Earth_2_TextData",
+          "SourceString": "땅 속성 응원 호루라기 +1",
+          "LocalizedString": "땅 속성 응원 호루라기 +1"
+        }
+      },
+      "ITEM_NAME_Otomo_ElementBoost_Dark_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Otomo_ElementBoost_Dark_2_TextData",
+          "SourceString": "어둠 속성 응원 호루라기 +1",
+          "LocalizedString": "어둠 속성 응원 호루라기 +1"
+        }
+      },
+      "ITEM_NAME_Otomo_ElementBoost_Dragon_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Otomo_ElementBoost_Dragon_2_TextData",
+          "SourceString": "용 속성 응원 호루라기 +1",
+          "LocalizedString": "용 속성 응원 호루라기 +1"
+        }
+      },
+      "ITEM_NAME_Otomo_ElementBoost_Normal_3": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Otomo_ElementBoost_Normal_3_TextData",
+          "SourceString": "무속성 응원 호루라기 +2",
+          "LocalizedString": "무속성 응원 호루라기 +2"
+        }
+      },
+      "ITEM_NAME_Otomo_ElementBoost_Fire_3": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Otomo_ElementBoost_Fire_3_TextData",
+          "SourceString": "화염 속성 응원 호루라기 +2",
+          "LocalizedString": "화염 속성 응원 호루라기 +2"
+        }
+      },
+      "ITEM_NAME_Otomo_ElementBoost_Water_3": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Otomo_ElementBoost_Water_3_TextData",
+          "SourceString": "물 속성 응원 호루라기 +2",
+          "LocalizedString": "물 속성 응원 호루라기 +2"
+        }
+      },
+      "ITEM_NAME_Otomo_ElementBoost_Electricity_3": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Otomo_ElementBoost_Electricity_3_TextData",
+          "SourceString": "번개 속성 응원 호루라기 +2",
+          "LocalizedString": "번개 속성 응원 호루라기 +2"
+        }
+      },
+      "ITEM_NAME_Otomo_ElementBoost_Leaf_3": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Otomo_ElementBoost_Leaf_3_TextData",
+          "SourceString": "풀 속성 응원 호루라기 +2",
+          "LocalizedString": "풀 속성 응원 호루라기 +2"
+        }
+      },
+      "ITEM_NAME_Otomo_ElementBoost_Ice_3": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Otomo_ElementBoost_Ice_3_TextData",
+          "SourceString": "얼음 속성 응원 호루라기 +2",
+          "LocalizedString": "얼음 속성 응원 호루라기 +2"
+        }
+      },
+      "ITEM_NAME_Otomo_ElementBoost_Earth_3": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Otomo_ElementBoost_Earth_3_TextData",
+          "SourceString": "땅 속성 응원 호루라기 +2",
+          "LocalizedString": "땅 속성 응원 호루라기 +2"
+        }
+      },
+      "ITEM_NAME_Otomo_ElementBoost_Dark_3": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Otomo_ElementBoost_Dark_3_TextData",
+          "SourceString": "어둠 속성 응원 호루라기 +2",
+          "LocalizedString": "어둠 속성 응원 호루라기 +2"
+        }
+      },
+      "ITEM_NAME_Otomo_ElementBoost_Dragon_3": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Otomo_ElementBoost_Dragon_3_TextData",
+          "SourceString": "용 속성 응원 호루라기 +2",
+          "LocalizedString": "용 속성 응원 호루라기 +2"
+        }
+      },
+      "ITEM_NAME_Otomo_Attack_up1": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Otomo_Attack_up1_TextData",
+          "SourceString": "공격 지원 호루라기",
+          "LocalizedString": "공격 지원 호루라기"
+        }
+      },
+      "ITEM_NAME_Otomo_Attack_up2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Otomo_Attack_up2_TextData",
+          "SourceString": "공격 지원 호루라기 +1",
+          "LocalizedString": "공격 지원 호루라기 +1"
+        }
+      },
+      "ITEM_NAME_Otomo_Attack_up3": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Otomo_Attack_up3_TextData",
+          "SourceString": "공격 지원 호루라기 +2",
+          "LocalizedString": "공격 지원 호루라기 +2"
+        }
+      },
+      "ITEM_NAME_Otomo_Defense_up1": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Otomo_Defense_up1_TextData",
+          "SourceString": "방어 지원 호루라기",
+          "LocalizedString": "방어 지원 호루라기"
+        }
+      },
+      "ITEM_NAME_Otomo_Defense_up2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Otomo_Defense_up2_TextData",
+          "SourceString": "방어 지원 호루라기 +1",
+          "LocalizedString": "방어 지원 호루라기 +1"
+        }
+      },
+      "ITEM_NAME_Otomo_Defense_up3": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Otomo_Defense_up3_TextData",
+          "SourceString": "방어 지원 호루라기 +2",
+          "LocalizedString": "방어 지원 호루라기 +2"
+        }
+      },
+      "ITEM_NAME_Otomo_PalExp_Increase_1": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Otomo_PalExp_Increase_1_TextData",
+          "SourceString": "성장 촉진 종",
+          "LocalizedString": "성장 촉진 종"
+        }
+      },
+      "ITEM_NAME_Otomo_PalExp_Increase_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Otomo_PalExp_Increase_2_TextData",
+          "SourceString": "성장 촉진 종 +1",
+          "LocalizedString": "성장 촉진 종 +1"
+        }
+      },
+      "ITEM_NAME_Otomo_PalExp_Increase_3": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Otomo_PalExp_Increase_3_TextData",
+          "SourceString": "성장 촉진 종 +2",
+          "LocalizedString": "성장 촉진 종 +2"
+        }
+      },
+      "ITEM_NAME_SkillUnlock_IceNarwhal": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_SkillUnlock_IceNarwhal_TextData",
+          "SourceString": "빙등고래의 안장",
+          "LocalizedString": "빙등고래의 안장"
+        }
+      },
+      "ITEM_NAME_SkillUnlock_GhostAnglerfish": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_SkillUnlock_GhostAnglerfish_TextData",
+          "SourceString": "빛초롱의 안장",
+          "LocalizedString": "빛초롱의 안장"
+        }
+      },
+      "ITEM_NAME_SkillUnlock_LeafMomonga": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_SkillUnlock_LeafMomonga_TextData",
+          "SourceString": "모몽파의 하네스",
+          "LocalizedString": "모몽파의 하네스"
+        }
+      },
+      "ITEM_NAME_SkillUnlock_IceSeal": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_SkillUnlock_IceSeal_TextData",
+          "SourceString": "크리범의 하네스",
+          "LocalizedString": "크리범의 하네스"
+        }
+      },
+      "ITEM_NAME_SkillUnlock_Plesiosaur": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_SkillUnlock_Plesiosaur_TextData",
+          "SourceString": "풀레시오의 안장",
+          "LocalizedString": "풀레시오의 안장"
+        }
+      },
+      "ITEM_NAME_SkillUnlock_TropicalOstrich": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_SkillUnlock_TropicalOstrich_TextData",
+          "SourceString": "트로조크의 안장",
+          "LocalizedString": "트로조크의 안장"
+        }
+      },
+      "ITEM_NAME_SkillUnlock_PoseidonOrca": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_SkillUnlock_PoseidonOrca_TextData",
+          "SourceString": "넵티오스의 안장",
+          "LocalizedString": "넵티오스의 안장"
+        }
+      },
+      "ITEM_NAME_SkillUnlock_NegativeOctopus_Neutral": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_SkillUnlock_NegativeOctopus_Neutral_TextData",
+          "SourceString": "드리문의 장갑",
+          "LocalizedString": "드리문의 장갑"
+        }
+      },
+      "ITEM_NAME_SkillUnlock_Penguin_Electric": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_SkillUnlock_Penguin_Electric_TextData",
+          "SourceString": "뎅키의 로켓 발사기",
+          "LocalizedString": "뎅키의 로켓 발사기"
+        }
+      },
+      "ITEM_NAME_SkillUnlock_FlyingManta_Thunder": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_SkillUnlock_FlyingManta_Thunder_TextData",
+          "SourceString": "일레카이트의 장갑",
+          "LocalizedString": "일레카이트의 장갑"
+        }
+      },
+      "ITEM_NAME_SkillUnlock_BlueDragon_Ice": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_SkillUnlock_BlueDragon_Ice_TextData",
+          "SourceString": "아주리나의 안장",
+          "LocalizedString": "아주리나의 안장"
+        }
+      },
+      "ITEM_NAME_SkillUnlock_GhostAnglerfish_Fire": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_SkillUnlock_GhostAnglerfish_Fire_TextData",
+          "SourceString": "불초롱의 안장",
+          "LocalizedString": "불초롱의 안장"
+        }
+      },
+      "ITEM_NAME_SkillUnlock_IceNarwhal_Fire": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_SkillUnlock_IceNarwhal_Fire_TextData",
+          "SourceString": "홍등고래의 안장",
+          "LocalizedString": "홍등고래의 안장"
+        }
+      },
+      "ITEM_NAME_Blueprint_SF_Desk": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_SF_Desk_TextData",
+          "SourceString": "연구실 책상 설계도",
+          "LocalizedString": "연구실 책상 설계도"
+        }
+      },
+      "ITEM_NAME_Blueprint_SF_Chair": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_SF_Chair_TextData",
+          "SourceString": "연구실 의자 설계도",
+          "LocalizedString": "연구실 의자 설계도"
+        }
+      },
+      "ITEM_NAME_GrapplingGun_5": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_GrapplingGun_5_TextData",
+          "SourceString": "울트라 갈고리 총",
+          "LocalizedString": "울트라 갈고리 총"
+        }
+      },
+      "ITEM_NAME_QuestItem_Breeder_1": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_QuestItem_Breeder_1_TextData",
+          "SourceString": "브리더의 소중한 팰",
+          "LocalizedString": "브리더의 소중한 팰"
+        }
+      },
+      "ITEM_NAME_AffectionFruit_01": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_AffectionFruit_01_TextData",
+          "SourceString": "유대의 보도",
+          "LocalizedString": "유대의 보도"
+        }
+      },
+      "ITEM_NAME_FishingRod_01_1": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_FishingRod_01_1_TextData",
+          "SourceString": "초급 낚싯대 (베비뇽)",
+          "LocalizedString": "초급 낚싯대 (베비뇽)"
+        }
+      },
+      "ITEM_NAME_FishingRod_01_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_FishingRod_01_2_TextData",
+          "SourceString": "초급 낚싯대 (초롱이)",
+          "LocalizedString": "초급 낚싯대 (초롱이)"
+        }
+      },
+      "ITEM_NAME_FishingRod_02_1": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_FishingRod_02_1_TextData",
+          "SourceString": "중급 낚싯대 (까부냥)",
+          "LocalizedString": "중급 낚싯대 (까부냥)"
+        }
+      },
+      "ITEM_NAME_FishingRod_02_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_FishingRod_02_2_TextData",
+          "SourceString": "중급 낚싯대 (칼구리)",
+          "LocalizedString": "중급 낚싯대 (칼구리)"
+        }
+      },
+      "ITEM_NAME_FishingRod_03_1": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_FishingRod_03_1_TextData",
+          "SourceString": "고급 낚싯대 (펭키)",
+          "LocalizedString": "고급 낚싯대 (펭키)"
+        }
+      },
+      "ITEM_NAME_FishingRod_03_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_FishingRod_03_2_TextData",
+          "SourceString": "고급 낚싯대 (뚱코알라)",
+          "LocalizedString": "고급 낚싯대 (뚱코알라)"
+        }
+      },
+      "ITEM_NAME_FishingBait_1": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_FishingBait_1_TextData",
+          "SourceString": "소박한 낚시 미끼",
+          "LocalizedString": "소박한 낚시 미끼"
+        }
+      },
+      "ITEM_NAME_FishingBait_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_FishingBait_2_TextData",
+          "SourceString": "질 좋은 낚시 미끼",
+          "LocalizedString": "질 좋은 낚시 미끼"
+        }
+      },
+      "ITEM_NAME_FishingBait_3": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_FishingBait_3_TextData",
+          "SourceString": "호화로운 낚시 미끼",
+          "LocalizedString": "호화로운 낚시 미끼"
+        }
+      },
+      "ITEM_NAME_FishingBait_1_A": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_FishingBait_1_A_TextData",
+          "SourceString": "초보용 낚시 미끼",
+          "LocalizedString": "초보용 낚시 미끼"
+        }
+      },
+      "ITEM_NAME_FishingBait_1_B": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_FishingBait_1_B_TextData",
+          "SourceString": "달콤한 낚시 미끼",
+          "LocalizedString": "달콤한 낚시 미끼"
+        }
+      },
+      "ITEM_NAME_FishingBait_2_A": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_FishingBait_2_A_TextData",
+          "SourceString": "행운의 낚시 미끼",
+          "LocalizedString": "행운의 낚시 미끼"
+        }
+      },
+      "ITEM_NAME_FishingBait_2_B": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_FishingBait_2_B_TextData",
+          "SourceString": "빨리 무는 낚시 미끼",
+          "LocalizedString": "빨리 무는 낚시 미끼"
+        }
+      },
+      "ITEM_NAME_FishingBait_3_A": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_FishingBait_3_A_TextData",
+          "SourceString": "매혹적인 낚시 미끼",
+          "LocalizedString": "매혹적인 낚시 미끼"
+        }
+      },
+      "ITEM_NAME_FishingBait_3_B": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_FishingBait_3_B_TextData",
+          "SourceString": "위험한 낚시 미끼",
+          "LocalizedString": "위험한 낚시 미끼"
+        }
+      },
+      "ITEM_NAME_Meat_OctopusGirl": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Meat_OctopusGirl_TextData",
+          "SourceString": "옥토비아의 문어 다리",
+          "LocalizedString": "옥토비아의 문어 다리"
+        }
+      },
+      "ITEM_NAME_Meat_JellyfishFairy": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Meat_JellyfishFairy_TextData",
+          "SourceString": "플루미의 해파리 몸통",
+          "LocalizedString": "플루미의 해파리 몸통"
+        }
+      },
+      "ITEM_NAME_Meat_JellyfishGhost": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Meat_JellyfishGhost_TextData",
+          "SourceString": "흘루미의 해파리 몸통",
+          "LocalizedString": "흘루미의 해파리 몸통"
+        }
+      },
+      "ITEM_NAME_Meat_IceCrocodile": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Meat_IceCrocodile_TextData",
+          "SourceString": "크로꽁의 악어 고기",
+          "LocalizedString": "크로꽁의 악어 고기"
+        }
+      },
+      "ITEM_NAME_OctopusGirl_Takoyaki": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_OctopusGirl_Takoyaki_TextData",
+          "SourceString": "옥토비아 타코야키",
+          "LocalizedString": "옥토비아 타코야키"
+        }
+      },
+      "ITEM_NAME_JellyfishFairy_jelly": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_JellyfishFairy_jelly_TextData",
+          "SourceString": "플루미 흔들흔들 젤리",
+          "LocalizedString": "플루미 흔들흔들 젤리"
+        }
+      },
+      "ITEM_NAME_JellyfishGhost_jelly": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_JellyfishGhost_jelly_TextData",
+          "SourceString": "흘루미 흐물흐물 젤리",
+          "LocalizedString": "흘루미 흐물흐물 젤리"
+        }
+      },
+      "ITEM_NAME_BakedMeat_IceCrocodile": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_BakedMeat_IceCrocodile_TextData",
+          "SourceString": "크로꽁 스테이크",
+          "LocalizedString": "크로꽁 스테이크"
+        }
+      },
+      "ITEM_NAME_Lantern_High": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Lantern_High_TextData",
+          "SourceString": "허리 휴대형 강화 랜턴",
+          "LocalizedString": "허리 휴대형 강화 랜턴"
+        }
+      },
+      "ITEM_NAME_ManganeseOre": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_ManganeseOre_TextData",
+          "SourceString": "코랄리움 광석",
+          "LocalizedString": "코랄리움 광석"
+        }
+      },
+      "ITEM_NAME_ManganeseIngot": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_ManganeseIngot_TextData",
+          "SourceString": "코랄리움 주괴",
+          "LocalizedString": "코랄리움 주괴"
+        }
+      },
+      "ITEM_NAME_BossDefeatReward_IceNarwhal": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_BossDefeatReward_IceNarwhal_TextData",
+          "SourceString": "빙등고래 토벌 증표",
+          "LocalizedString": "빙등고래 토벌 증표"
+        }
+      },
+      "ITEM_NAME_BossDefeatReward_IceNarwhal_Fire": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_BossDefeatReward_IceNarwhal_Fire_TextData",
+          "SourceString": "홍등고래 토벌 증표",
+          "LocalizedString": "홍등고래 토벌 증표"
+        }
+      },
+      "ITEM_NAME_BossDefeatReward_PoseidonOrca": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_BossDefeatReward_PoseidonOrca_TextData",
+          "SourceString": "넵티오스 토벌 증표",
+          "LocalizedString": "넵티오스 토벌 증표"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaBlade004": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaBlade004_TextData",
+          "SourceString": "엑스칼리버 설계도",
+          "LocalizedString": "엑스칼리버 설계도"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaBlade003": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaBlade003_TextData",
+          "SourceString": "테라프리즈마 설계도",
+          "LocalizedString": "테라프리즈마 설계도"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaGun001": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaGun001_TextData",
+          "SourceString": "볼텍스 비터 설계도",
+          "LocalizedString": "볼텍스 비터 설계도"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaLantern001": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaLantern001_TextData",
+          "SourceString": "나이트글로우 설계도",
+          "LocalizedString": "나이트글로우 설계도"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaBlade002": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaBlade002_TextData",
+          "SourceString": "테라 블레이드 설계도",
+          "LocalizedString": "테라 블레이드 설계도"
+        }
+      },
+      "ITEM_NAME_Blueprint_PalSummon_YakushimaBoss002": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_PalSummon_YakushimaBoss002_TextData",
+          "SourceString": "천상의 인장 설계도",
+          "LocalizedString": "천상의 인장 설계도"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaHeadEquip001": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaHeadEquip001_TextData",
+          "SourceString": "신성한 가면 설계도",
+          "LocalizedString": "신성한 가면 설계도"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaHeadEquip002": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaHeadEquip002_TextData",
+          "SourceString": "신성한 헤드기어 설계도",
+          "LocalizedString": "신성한 헤드기어 설계도"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaArmor001": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaArmor001_TextData",
+          "SourceString": "신성한 판금 갑옷 설계도",
+          "LocalizedString": "신성한 판금 갑옷 설계도"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaHeadEquip003": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaHeadEquip003_TextData",
+          "SourceString": "신성한 투구 설계도",
+          "LocalizedString": "신성한 투구 설계도"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaHeadEquip004": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaHeadEquip004_TextData",
+          "SourceString": "신성한 후드 설계도",
+          "LocalizedString": "신성한 후드 설계도"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaBlade004_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaBlade004_2_TextData",
+          "SourceString": "엑스칼리버 설계도 1",
+          "LocalizedString": "엑스칼리버 설계도 1"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaBlade004_3": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaBlade004_3_TextData",
+          "SourceString": "엑스칼리버 설계도 2",
+          "LocalizedString": "엑스칼리버 설계도 2"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaBlade004_4": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaBlade004_4_TextData",
+          "SourceString": "엑스칼리버 설계도 3",
+          "LocalizedString": "엑스칼리버 설계도 3"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaBlade004_5": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaBlade004_5_TextData",
+          "SourceString": "엑스칼리버 설계도 4",
+          "LocalizedString": "엑스칼리버 설계도 4"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaBlade003_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaBlade003_2_TextData",
+          "SourceString": "테라프리즈마 설계도 1",
+          "LocalizedString": "테라프리즈마 설계도 1"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaBlade003_3": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaBlade003_3_TextData",
+          "SourceString": "테라프리즈마 설계도 2",
+          "LocalizedString": "테라프리즈마 설계도 2"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaBlade003_4": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaBlade003_4_TextData",
+          "SourceString": "테라프리즈마 설계도 3",
+          "LocalizedString": "테라프리즈마 설계도 3"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaBlade003_5": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaBlade003_5_TextData",
+          "SourceString": "테라프리즈마 설계도 4",
+          "LocalizedString": "테라프리즈마 설계도 4"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaGun001_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaGun001_2_TextData",
+          "SourceString": "볼텍스 비터 설계도 1",
+          "LocalizedString": "볼텍스 비터 설계도 1"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaGun001_3": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaGun001_3_TextData",
+          "SourceString": "볼텍스 비터 설계도 2",
+          "LocalizedString": "볼텍스 비터 설계도 2"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaGun001_4": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaGun001_4_TextData",
+          "SourceString": "볼텍스 비터 설계도 3",
+          "LocalizedString": "볼텍스 비터 설계도 3"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaGun001_5": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaGun001_5_TextData",
+          "SourceString": "볼텍스 비터 설계도 4",
+          "LocalizedString": "볼텍스 비터 설계도 4"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaLantern001_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaLantern001_2_TextData",
+          "SourceString": "나이트글로우 설계도 1",
+          "LocalizedString": "나이트글로우 설계도 1"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaLantern001_3": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaLantern001_3_TextData",
+          "SourceString": "나이트글로우 설계도 2",
+          "LocalizedString": "나이트글로우 설계도 2"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaLantern001_4": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaLantern001_4_TextData",
+          "SourceString": "나이트글로우 설계도 3",
+          "LocalizedString": "나이트글로우 설계도 3"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaLantern001_5": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaLantern001_5_TextData",
+          "SourceString": "나이트글로우 설계도 4",
+          "LocalizedString": "나이트글로우 설계도 4"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaHeadEquip001_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaHeadEquip001_2_TextData",
+          "SourceString": "신성한 가면 설계도 1",
+          "LocalizedString": "신성한 가면 설계도 1"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaHeadEquip001_3": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaHeadEquip001_3_TextData",
+          "SourceString": "신성한 가면 설계도 2",
+          "LocalizedString": "신성한 가면 설계도 2"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaHeadEquip001_4": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaHeadEquip001_4_TextData",
+          "SourceString": "신성한 가면 설계도 3",
+          "LocalizedString": "신성한 가면 설계도 3"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaHeadEquip001_5": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaHeadEquip001_5_TextData",
+          "SourceString": "신성한 가면 설계도 4",
+          "LocalizedString": "신성한 가면 설계도 4"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaHeadEquip002_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaHeadEquip002_2_TextData",
+          "SourceString": "신성한 헤드기어 설계도 1",
+          "LocalizedString": "신성한 헤드기어 설계도 1"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaHeadEquip002_3": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaHeadEquip002_3_TextData",
+          "SourceString": "신성한 헤드기어 설계도 2",
+          "LocalizedString": "신성한 헤드기어 설계도 2"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaHeadEquip002_4": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaHeadEquip002_4_TextData",
+          "SourceString": "신성한 헤드기어 설계도 3",
+          "LocalizedString": "신성한 헤드기어 설계도 3"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaHeadEquip002_5": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaHeadEquip002_5_TextData",
+          "SourceString": "신성한 헤드기어 설계도 4",
+          "LocalizedString": "신성한 헤드기어 설계도 4"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaArmor001_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaArmor001_2_TextData",
+          "SourceString": "신성한 판금 갑옷 설계도 1",
+          "LocalizedString": "신성한 판금 갑옷 설계도 1"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaArmor001_3": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaArmor001_3_TextData",
+          "SourceString": "신성한 판금 갑옷 설계도 2",
+          "LocalizedString": "신성한 판금 갑옷 설계도 2"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaArmor001_4": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaArmor001_4_TextData",
+          "SourceString": "신성한 판금 갑옷 설계도 3",
+          "LocalizedString": "신성한 판금 갑옷 설계도 3"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaArmor001_5": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaArmor001_5_TextData",
+          "SourceString": "신성한 판금 갑옷 설계도 4",
+          "LocalizedString": "신성한 판금 갑옷 설계도 4"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaHeadEquip003_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaHeadEquip003_2_TextData",
+          "SourceString": "신성한 투구 설계도 1",
+          "LocalizedString": "신성한 투구 설계도 1"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaHeadEquip003_3": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaHeadEquip003_3_TextData",
+          "SourceString": "신성한 투구 설계도 2",
+          "LocalizedString": "신성한 투구 설계도 2"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaHeadEquip003_4": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaHeadEquip003_4_TextData",
+          "SourceString": "신성한 투구 설계도 3",
+          "LocalizedString": "신성한 투구 설계도 3"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaHeadEquip003_5": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaHeadEquip003_5_TextData",
+          "SourceString": "신성한 투구 설계도 4",
+          "LocalizedString": "신성한 투구 설계도 4"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaHeadEquip004_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaHeadEquip004_2_TextData",
+          "SourceString": "신성한 후드 설계도 1",
+          "LocalizedString": "신성한 후드 설계도 1"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaHeadEquip004_3": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaHeadEquip004_3_TextData",
+          "SourceString": "신성한 후드 설계도 2",
+          "LocalizedString": "신성한 후드 설계도 2"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaHeadEquip004_4": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaHeadEquip004_4_TextData",
+          "SourceString": "신성한 후드 설계도 3",
+          "LocalizedString": "신성한 후드 설계도 3"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaHeadEquip004_5": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaHeadEquip004_5_TextData",
+          "SourceString": "신성한 후드 설계도 4",
+          "LocalizedString": "신성한 후드 설계도 4"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaBlade002_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaBlade002_2_TextData",
+          "SourceString": "테라 블레이드 설계도 1",
+          "LocalizedString": "테라 블레이드 설계도 1"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaBlade002_3": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaBlade002_3_TextData",
+          "SourceString": "테라 블레이드 설계도 2",
+          "LocalizedString": "테라 블레이드 설계도 2"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaBlade002_4": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaBlade002_4_TextData",
+          "SourceString": "테라 블레이드 설계도 3",
+          "LocalizedString": "테라 블레이드 설계도 3"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaBlade002_5": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaBlade002_5_TextData",
+          "SourceString": "테라 블레이드 설계도 4",
+          "LocalizedString": "테라 블레이드 설계도 4"
+        }
+      },
+      "ITEM_NAME_Blueprint_Launcher_Meteor_5": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_Launcher_Meteor_5_TextData",
+          "SourceString": "메테오 발사기 설계도 4",
+          "LocalizedString": "메테오 발사기 설계도 4"
+        }
+      },
+      "ITEM_NAME_SkillCard_IceAge": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_SkillCard_IceAge_TextData",
+          "SourceString": "얼음 기술 열매: 프로스트 아웃",
+          "LocalizedString": "얼음 기술 열매: 프로스트 아웃"
+        }
+      },
+      "ITEM_NAME_SkillCard_CrossWind": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_SkillCard_CrossWind_TextData",
+          "SourceString": "풀 기술 열매: 크로스 윈드",
+          "LocalizedString": "풀 기술 열매: 크로스 윈드"
+        }
+      },
+      "ITEM_NAME_SkillCard_RipTide": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_SkillCard_RipTide_TextData",
+          "SourceString": "물 기술 열매: 아쿠아 서지",
+          "LocalizedString": "물 기술 열매: 아쿠아 서지"
+        }
+      },
+      "ITEM_NAME_TreasureMap01": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_TreasureMap01_TextData",
+          "SourceString": "보물 지도",
+          "LocalizedString": "보물 지도"
+        }
+      },
+      "ITEM_NAME_Seafood_Salada": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Seafood_Salada_TextData",
+          "SourceString": "해산물 샐러드",
+          "LocalizedString": "해산물 샐러드"
+        }
+      },
+      "ITEM_NAME_Blueprint_FishingRod_01_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_FishingRod_01_2_TextData",
+          "SourceString": "초급 낚싯대 (초롱이) 설계도",
+          "LocalizedString": "초급 낚싯대 (초롱이) 설계도"
+        }
+      },
+      "ITEM_NAME_Blueprint_FishingRod_02_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_FishingRod_02_2_TextData",
+          "SourceString": "중급 낚싯대 (칼구리) 설계도",
+          "LocalizedString": "중급 낚싯대 (칼구리) 설계도"
+        }
+      },
+      "ITEM_NAME_Blueprint_FishingRod_03_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_FishingRod_03_2_TextData",
+          "SourceString": "고급 낚싯대 (뚱코알라) 설계도",
+          "LocalizedString": "고급 낚싯대 (뚱코알라) 설계도"
+        }
+      },
+      "ITEM_NAME_Supplement": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Supplement_TextData",
+          "SourceString": "영양제",
+          "LocalizedString": "영양제"
         }
       }
     }
