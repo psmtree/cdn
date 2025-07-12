@@ -1,0 +1,432 @@
+{
+  "1077": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 1,
+    "WeightInSlot": 40.0,
+    "StaticItemId": "PalUpgradeStone3",
+    "MinNum": 1,
+    "MaxNum": 1,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1078": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 1,
+    "WeightInSlot": 30.0,
+    "StaticItemId": "Money",
+    "MinNum": 600,
+    "MaxNum": 1600,
+    "NumUnit": 100,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1079": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 1,
+    "WeightInSlot": 20.0,
+    "StaticItemId": "TreasureBoxKey03",
+    "MinNum": 1,
+    "MaxNum": 1,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1080": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 1,
+    "WeightInSlot": 10.0,
+    "StaticItemId": "LuxuryMedicines",
+    "MinNum": 1,
+    "MaxNum": 1,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1081": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 1,
+    "WeightInSlot": 6.0,
+    "StaticItemId": "Potion_High",
+    "MinNum": 1,
+    "MaxNum": 1,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1082": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 1,
+    "WeightInSlot": 6.0,
+    "StaticItemId": "Blueprint_AssaultRifle_Default2",
+    "MinNum": 1,
+    "MaxNum": 1,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1083": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 1,
+    "WeightInSlot": 1.2,
+    "StaticItemId": "Blueprint_AssaultRifle_Default3",
+    "MinNum": 1,
+    "MaxNum": 1,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1084": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 1,
+    "WeightInSlot": 0.24,
+    "StaticItemId": "Blueprint_AssaultRifle_Default4",
+    "MinNum": 1,
+    "MaxNum": 1,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1085": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 1,
+    "WeightInSlot": 0.048,
+    "StaticItemId": "Blueprint_AssaultRifle_Default5",
+    "MinNum": 1,
+    "MaxNum": 1,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1086": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 1,
+    "WeightInSlot": 6.0,
+    "StaticItemId": "Blueprint_PumpActionShotgun_2",
+    "MinNum": 1,
+    "MaxNum": 1,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1087": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 1,
+    "WeightInSlot": 1.2,
+    "StaticItemId": "Blueprint_PumpActionShotgun_3",
+    "MinNum": 1,
+    "MaxNum": 1,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1088": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 1,
+    "WeightInSlot": 0.24,
+    "StaticItemId": "Blueprint_PumpActionShotgun_4",
+    "MinNum": 1,
+    "MaxNum": 1,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1089": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 1,
+    "WeightInSlot": 0.048,
+    "StaticItemId": "Blueprint_PumpActionShotgun_5",
+    "MinNum": 1,
+    "MaxNum": 1,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1090": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 1,
+    "WeightInSlot": 5.0,
+    "StaticItemId": "Blueprint_PlasticHelmet_2",
+    "MinNum": 1,
+    "MaxNum": 1,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1091": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 1,
+    "WeightInSlot": 1.0,
+    "StaticItemId": "Blueprint_PlasticHelmet_3",
+    "MinNum": 1,
+    "MaxNum": 1,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1092": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 1,
+    "WeightInSlot": 0.2,
+    "StaticItemId": "Blueprint_PlasticHelmet_4",
+    "MinNum": 1,
+    "MaxNum": 1,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1093": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 1,
+    "WeightInSlot": 0.04,
+    "StaticItemId": "Blueprint_PlasticHelmet_5",
+    "MinNum": 1,
+    "MaxNum": 1,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1094": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 1,
+    "WeightInSlot": 5.0,
+    "StaticItemId": "Blueprint_PlasticArmor_2",
+    "MinNum": 1,
+    "MaxNum": 1,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1095": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 1,
+    "WeightInSlot": 1.0,
+    "StaticItemId": "Blueprint_PlasticArmor_3",
+    "MinNum": 1,
+    "MaxNum": 1,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1096": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 1,
+    "WeightInSlot": 0.2,
+    "StaticItemId": "Blueprint_PlasticArmor_4",
+    "MinNum": 1,
+    "MaxNum": 1,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1097": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 1,
+    "WeightInSlot": 0.04,
+    "StaticItemId": "Blueprint_PlasticArmor_5",
+    "MinNum": 1,
+    "MaxNum": 1,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1098": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 1,
+    "WeightInSlot": 3.0,
+    "StaticItemId": "Blueprint_PlasticArmorHeat_2",
+    "MinNum": 1,
+    "MaxNum": 1,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1099": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 1,
+    "WeightInSlot": 0.6,
+    "StaticItemId": "Blueprint_PlasticArmorHeat_3",
+    "MinNum": 1,
+    "MaxNum": 1,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1100": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 1,
+    "WeightInSlot": 0.12,
+    "StaticItemId": "Blueprint_PlasticArmorHeat_4",
+    "MinNum": 1,
+    "MaxNum": 1,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1101": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 1,
+    "WeightInSlot": 0.024,
+    "StaticItemId": "Blueprint_PlasticArmorHeat_5",
+    "MinNum": 1,
+    "MaxNum": 1,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1102": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 1,
+    "WeightInSlot": 3.0,
+    "StaticItemId": "Blueprint_PlasticArmorCold_2",
+    "MinNum": 1,
+    "MaxNum": 1,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1103": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 1,
+    "WeightInSlot": 0.6,
+    "StaticItemId": "Blueprint_PlasticArmorCold_3",
+    "MinNum": 1,
+    "MaxNum": 1,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1104": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 1,
+    "WeightInSlot": 0.12,
+    "StaticItemId": "Blueprint_PlasticArmorCold_4",
+    "MinNum": 1,
+    "MaxNum": 1,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1105": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 1,
+    "WeightInSlot": 0.024,
+    "StaticItemId": "Blueprint_PlasticArmorCold_5",
+    "MinNum": 1,
+    "MaxNum": 1,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1106": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 1,
+    "WeightInSlot": 2.0,
+    "StaticItemId": "Blueprint_PlasticArmorWeight_2",
+    "MinNum": 1,
+    "MaxNum": 1,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1107": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 1,
+    "WeightInSlot": 0.4,
+    "StaticItemId": "Blueprint_PlasticArmorWeight_3",
+    "MinNum": 1,
+    "MaxNum": 1,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1108": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 1,
+    "WeightInSlot": 0.08,
+    "StaticItemId": "Blueprint_PlasticArmorWeight_4",
+    "MinNum": 1,
+    "MaxNum": 1,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1109": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 1,
+    "WeightInSlot": 0.016,
+    "StaticItemId": "Blueprint_PlasticArmorWeight_5",
+    "MinNum": 1,
+    "MaxNum": 1,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1110": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 2,
+    "WeightInSlot": 50.0,
+    "StaticItemId": "Money",
+    "MinNum": 100,
+    "MaxNum": 200,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1111": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 2,
+    "WeightInSlot": 25.0,
+    "StaticItemId": "CrudeOil",
+    "MinNum": 5,
+    "MaxNum": 20,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1112": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 2,
+    "WeightInSlot": 25.0,
+    "StaticItemId": "DogCoin",
+    "MinNum": 15,
+    "MaxNum": 20,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1113": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 3,
+    "WeightInSlot": 4.0,
+    "StaticItemId": "Lotus_hp_01",
+    "MinNum": 1,
+    "MaxNum": 1,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1114": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 3,
+    "WeightInSlot": 4.0,
+    "StaticItemId": "Lotus_stamina_01",
+    "MinNum": 1,
+    "MaxNum": 1,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1115": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 3,
+    "WeightInSlot": 4.0,
+    "StaticItemId": "Lotus_attack_01",
+    "MinNum": 1,
+    "MaxNum": 1,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1116": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 3,
+    "WeightInSlot": 4.0,
+    "StaticItemId": "Lotus_workspeed_01",
+    "MinNum": 1,
+    "MaxNum": 1,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1117": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 3,
+    "WeightInSlot": 4.0,
+    "StaticItemId": "Lotus_weight_01",
+    "MinNum": 1,
+    "MaxNum": 1,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1118": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 3,
+    "WeightInSlot": 50.0,
+    "StaticItemId": "ExpBoost_03",
+    "MinNum": 2,
+    "MaxNum": 3,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  },
+  "1119": {
+    "FieldName": "Oilrig_01",
+    "SlotNo": 3,
+    "WeightInSlot": 30.0,
+    "StaticItemId": "ExpBoost_04",
+    "MinNum": 1,
+    "MaxNum": 2,
+    "NumUnit": 1,
+    "TreasureBoxGrade": "EPalMapObjectTreasureGradeType::Grade5"
+  }
+}
