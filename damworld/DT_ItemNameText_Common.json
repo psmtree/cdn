@@ -11439,8 +11439,8 @@
         "TextData": {
           "Namespace": "DT_ItemNameText_Common",
           "Key": "ITEM_NAME_SkillUnlock_IceSeal_TextData",
-          "SourceString": "크리범의 하네스",
-          "LocalizedString": "크리범의 하네스"
+          "SourceString": "크리범의 안장",
+          "LocalizedString": "크리범의 안장"
         }
       },
       "ITEM_NAME_SkillUnlock_Plesiosaur": {
@@ -12273,6 +12273,110 @@
           "Key": "ITEM_NAME_Supplement_TextData",
           "SourceString": "영양제",
           "LocalizedString": "영양제"
+        }
+      },
+      "ITEM_NAME_PalSummon_YakushimaBoss002_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalSummon_YakushimaBoss002_2_TextData",
+          "SourceString": "천상의 인장 [마스터]",
+          "LocalizedString": "천상의 인장 [마스터]"
+        }
+      },
+      "ITEM_NAME_HandgunShield": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_HandgunShield_TextData",
+          "SourceString": "ko_Text",
+          "LocalizedString": "ko_Text"
+        }
+      },
+      "ITEM_NAME_Blueprint_YakushimaBoss002_Relic": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_Blueprint_YakushimaBoss002_Relic_TextData",
+          "SourceString": "달의 군주 전리품 설계도",
+          "LocalizedString": "달의 군주 전리품 설계도"
+        }
+      },
+      "ITEM_NAME_PalPassiveSkillChange_TrainerATK_UP_1": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalPassiveSkillChange_TrainerATK_UP_1_TextData",
+          "SourceString": "ko_Text",
+          "LocalizedString": "ko_Text"
+        }
+      },
+      "ITEM_NAME_PalPassiveSkillChange_TrainerDEF_UP_1": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalPassiveSkillChange_TrainerDEF_UP_1_TextData",
+          "SourceString": "ko_Text",
+          "LocalizedString": "ko_Text"
+        }
+      },
+      "ITEM_NAME_PalPassiveSkillChange_TrainerWorkSpeed_UP_1": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalPassiveSkillChange_TrainerWorkSpeed_UP_1_TextData",
+          "SourceString": "ko_Text",
+          "LocalizedString": "ko_Text"
+        }
+      },
+      "ITEM_NAME_PalPassiveSkillChange_SalePrice_Up_1": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalPassiveSkillChange_SalePrice_Up_1_TextData",
+          "SourceString": "ko_Text",
+          "LocalizedString": "ko_Text"
+        }
+      },
+      "ITEM_NAME_PalPassiveSkillChange_SwimSpeed_up_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalPassiveSkillChange_SwimSpeed_up_2_TextData",
+          "SourceString": "ko_Text",
+          "LocalizedString": "ko_Text"
+        }
+      },
+      "ITEM_NAME_PalPassiveSkillChange_TrainerMining_up1": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalPassiveSkillChange_TrainerMining_up1_TextData",
+          "SourceString": "ko_Text",
+          "LocalizedString": "ko_Text"
+        }
+      },
+      "ITEM_NAME_PalPassiveSkillChange_TrainerLogging_up1": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalPassiveSkillChange_TrainerLogging_up1_TextData",
+          "SourceString": "ko_Text",
+          "LocalizedString": "ko_Text"
+        }
+      },
+      "ITEM_NAME_PalPassiveSkillChange_SalePrice_Up_2": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalPassiveSkillChange_SalePrice_Up_2_TextData",
+          "SourceString": "ko_Text",
+          "LocalizedString": "ko_Text"
+        }
+      },
+      "ITEM_NAME_PalPassiveSkillChange_SwimSpeed_up_1": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalPassiveSkillChange_SwimSpeed_up_1_TextData",
+          "SourceString": "ko_Text",
+          "LocalizedString": "ko_Text"
+        }
+      },
+      "ITEM_NAME_PalPassiveSkillChange_PAL_CorporateSlave": {
+        "TextData": {
+          "Namespace": "DT_ItemNameText_Common",
+          "Key": "ITEM_NAME_PalPassiveSkillChange_PAL_CorporateSlave_TextData",
+          "SourceString": "ko_Text",
+          "LocalizedString": "ko_Text"
         }
       }
     }
